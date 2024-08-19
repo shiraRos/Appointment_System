@@ -1,0 +1,29 @@
+#queue-list {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+#back-button {
+    margin-bottom: 20px;
+}
+
+#sort-title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#queue-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#queue-table th,
+#queue-table td {
+    border: 1px solid #000;
+    padding: 10px;
+    text-align: center;
+}
+
+.book-button {
+    padding: 5px 10px;
+}

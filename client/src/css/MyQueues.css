@@ -1,0 +1,51 @@
+.my-queues {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.my-queues h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.queue-list {
+    list-style: none;
+    padding: 0;
+}
+
+.queue-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.queue-item:last-child {
+    border-bottom: none;
+}
+
+.queue-info {
+    flex-grow: 1;
+    margin-right: 10px;
+}
+
+.cancel-button {
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.cancel-button:hover {
+    background-color: #c0392b;
+}

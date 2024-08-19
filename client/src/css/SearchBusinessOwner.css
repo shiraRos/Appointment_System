@@ -1,0 +1,138 @@
+.search-business-owner {
+  padding: 20px;
+} 
+
+.search-bar {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+} 
+
+.search-bar input {
+  padding: 10px;
+  width: 300px;
+  margin-right: 10px;
+} 
+
+.search-bar button {
+  padding: 10px 20px;
+  border-radius: 10px;
+} 
+
+#sendButton {
+  border-radius: 10px;
+  padding: 10px 20px;
+  display: flex;
+} 
+
+.content {
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+} 
+
+.details-container {
+  display: flex;
+  width: 100%;
+} 
+
+.business-details {
+  width: 50%;
+  padding: 20px;
+  font-size: 20px;
+  border-right: 1px solid #ccc;
+} 
+
+#back_color {
+  background-color: rgba(254, 254, 255, 0.837);
+} 
+
+.recommendations-list {
+  width: 50%;
+  padding: 20px;
+  height: 100vh; 
+  overflow-y: auto;
+} 
+
+.recommendation {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+} 
+
+.recommendation-content {
+  flex: 1;
+  margin-right: 20px;
+  font-size: 16px;
+  color: #333;
+} 
+
+.recommendation-author {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+
+.recommendation-author p {
+  font-size: 14px;
+  color: #555;
+  margin: 0;
+} 
+
+.recommendation-author span {
+  font-size: 12px;
+  color: #999;
+} 
+
+.rating-section .stars {
+  font-size: 24px;
+} 
+
+.rating-section textarea {
+  color: black;
+  width: 300px;
+  height: 80px;
+  margin-top: 10px;
+}
+
+.stars {
+  font-size: 24px;
+}
+
+.empty-star {
+  color: #ccc;
+  cursor: pointer; 
+}
+
+.filled-star {
+  color: yellow; 
+  cursor: pointer; 
+} 
+
+.invite-button {
+  background-color: #8372e7; /* Purple background */
+  color: white; /* White text */
+  padding: 10px 20px; /* Padding around text */
+  text-decoration: none; /* No underline */
+  font-size: 16px; /* Font size */
+  cursor: pointer; /* Pointer cursor */
+  border-radius: 20px; /* Rounded corners */
+  border: none; /* No border */
+  margin: 2%;
+  outline: none; /* No outline */
+  transition: background-color 0.3s ease; /* Smooth background color transition */
+}
+
+.invite-button:hover {
+  background-color: #6a11cb; /* Darker purple on hover */
+}

@@ -1,0 +1,33 @@
+.profile-card {
+    /* background-color: hwb(0 100% 0%);
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+    color: black;
+    max-width: 500px;
+    margin: 50px auto;
+    border: 3px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+
+.profile-header {
+    text-align: center;
+}
+
+.profile-header h1 {
+    font-size: 24px;
+    margin: 2%;
+}
+
+.profile-body {
+    font-size: 16px;
+  margin: 3%;
+}
+
+.profile-body strong {
+    font-weight: bold;
+}

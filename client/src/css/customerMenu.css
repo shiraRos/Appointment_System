@@ -1,0 +1,81 @@
+.sticky-menu {
+    height: 20%;
+    width: 100%;
+    /* Make the menu full width */
+    position: sticky;
+    top: 0;
+    background-color: #6a4b93;
+    /* Purple */
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    /* Adjust padding to fit the full width */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.namePlusButton {
+    display: flex;
+    align-items: center;
+    gap:50px;
+    flex-wrap: wrap;
+}
+
+.sticky-menu h2 {
+    color: #fff;
+    font-family: "Amatic SC", sans-serif;
+}
+
+.sticky-menu nav {
+    display: flex;
+    gap: 20px;
+}
+
+.sticky-menu .btn {
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    background-color: #563d7c;
+    /* Darker Purple */
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.sticky-menu .btn:hover {
+    background-color: #4b2b5f;
+    /* Darker Purple on hover */
+}
+
+/* Other Sections for demonstration */
+section {
+    padding: 100px 20px;
+    text-align: center;
+}
+.user-icon {
+    width: 70px; 
+    height: 70px; 
+    border-radius: 50%; 
+    margin-right: 1rem; 
+  }
+
+@media (max-width: 800px) {
+    .namePlusButton {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    nav {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .btn {
+      width: 100%;
+      margin: 0.5rem 0;
+    }
+  }
