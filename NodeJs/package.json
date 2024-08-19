@@ -1,0 +1,19 @@
+{
+  "name": "server-project",
+  "version": "1.0.0",
+  "description": "server web",
+  "main": "database.js",
+  "type": "module",
+  "scripts": {
+    "test": "npm start"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "init": "^0.1.2",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.9.7"
+  }
+}
